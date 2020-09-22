@@ -4,9 +4,9 @@ import net.thucydides.core.annotations.Step;
 
 public class NavigateTo {
 
-    WikipediaHomePage homePage;
+    AppliedHomePage homePage;
 
-    @Step("Open the Wikipedia home page")
+    @Step("Open the home page")
     public void theHomePage() {
         homePage.open();
     }
